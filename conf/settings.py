@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'constance',  # must be before project apps
     'portfolio'
 ]
 
@@ -128,3 +129,15 @@ MEDIA_ROOT = BASE_DIR / "portfolio/data/media"
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# django-constance
+# https://django-constance.readthedocs.io/en/latest/index.html
+CONSTANCE_BACKEND = "constance.backends.database.DatabaseBackend"
+
+CONSTANCE_CONFIG = {
+    "ABOUT_ME": ("Tell something about yourself.", "About me text field"),
+    "MORE_ABOUT_ME": (
+        "Tell more about yourself.\p\nAnd even more in a new paragraph..",
+        "More about me text field",
+    ),
+}
