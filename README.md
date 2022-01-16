@@ -9,7 +9,7 @@ This code serves to demonstrate my way of working.
 
 ## Tools Used
 
-Below are are list of tools used:
+Below are a list of tools and helpers I used:
 
 - [Ion Icons](https://ionic.io/ionicons) for hambuger menu bar
 - [Drawkit](https://www.drawkit.io/) for working man illustration
