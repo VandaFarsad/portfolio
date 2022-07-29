@@ -1,6 +1,6 @@
 # Portfolio
 
-A Django web application as a developer portfolio.
+A developer portfolio template build with a Django web application.
 
 The Hero and About Me sections can be be added and removed via the admin page. Skills and projects can also be customized via the admin page.
 
@@ -8,7 +8,7 @@ In case not obvious — this code serves to demonstrate my way of working. I wou
 
 ## Tools Used
 
-Below are a list of tools and helpers I used:
+Below is a list of tools and helpers I used:
 
 - [Ion Icons](https://ionic.io/ionicons) for hambuger menu bar
 - [Drawkit](https://www.drawkit.io/) for working man illustration
